@@ -1,0 +1,376 @@
+{
+  "states": [
+    {
+      "state": "1",
+      "fluid": "Agua",
+      "P": 27.951,
+      "T": 230,
+      "h": 990.0,
+      "s": 2.60971,
+      "flow": 230.0
+    },
+    {
+      "state": "2",
+      "fluid": "Agua",
+      "P": 5,
+      "T": 151.866,
+      "h": 990.0,
+      "s": 2.6836635878948867,
+      "flow": 230.0
+    },
+    {
+      "state": "3",
+      "fluid": "Agua",
+      "P": 5,
+      "T": 151.866,
+      "h": 2748.6,
+      "s": 6.8214,
+      "flow": 38.142775827720335
+    },
+    {
+      "state": "4",
+      "fluid": "Agua",
+      "P": 0.1,
+      "T": 45.817,
+      "h": 2344.54,
+      "s": 7.398359999999999,
+      "flow": 38.142775827720335
+    },
+    {
+      "state": "5",
+      "fluid": "Agua",
+      "P": 0.1,
+      "T": 45.817,
+      "h": 191.83,
+      "s": 0.64926,
+      "flow": 38.142775827720335
+    },
+    {
+      "state": "6",
+      "fluid": "Agua",
+      "P": 5,
+      "T": 151.866,
+      "h": 640.38,
+      "s": 1.86104,
+      "flow": 191.85722417227967
+    },
+    {
+      "state": "7",
+      "fluid": "Agua",
+      "P": 5,
+      "T": 90,
+      "h": 377.27,
+      "s": 1.19222,
+      "flow": 191.85722417227967
+    },
+    {
+      "state": "8",
+      "fluid": "Isobutano",
+      "P": 32.5,
+      "T": 145.0,
+      "h": 754.3047064492217,
+      "s": 2.527984432913269,
+      "flow": 105.5352236904133
+    },
+    {
+      "state": "9",
+      "fluid": "Isobutano",
+      "P": 4.0,
+      "T": 80.0,
+      "h": 690.0612481481481,
+      "s": 2.605088888888889,
+      "flow": 105.5352236904133
+    },
+    {
+      "state": "10",
+      "fluid": "Isobutano",
+      "P": 4,
+      "T": 29.564814814814817,
+      "h": 270.1738388888889,
+      "s": 1.2424314814814814,
+      "flow": 105.5352236904133
+    },
+    {
+      "state": "11",
+      "fluid": "Isobutano",
+      "P": 32.5,
+      "T": null,
+      "h": 275.9852175925926,
+      "s": null,
+      "flow": 105.5352236904133
+    }
+  ],
+  "eight": {
+    "P_bar": 32.5,
+    "T_C": 145.0,
+    "interpolations": [
+      {
+        "property": "v_dm3kg",
+        "source_page": 2,
+        "source_row": 47,
+        "P_bar": 30.88,
+        "T_sat_C": 125.0,
+        "superheat_C": 20.0,
+        "bounds_C": [
+          20,
+          20
+        ],
+        "bounds_values": [
+          12.617,
+          12.617
+        ],
+        "value": 12.617
+      },
+      {
+        "property": "v_dm3kg",
+        "source_page": 2,
+        "source_row": 48,
+        "P_bar": 33.578,
+        "T_sat_C": 130.0,
+        "superheat_C": 15.0,
+        "bounds_C": [
+          15,
+          15
+        ],
+        "bounds_values": [
+          10.751,
+          10.751
+        ],
+        "value": 10.751
+      },
+      {
+        "property": "h_kJkg",
+        "source_page": 3,
+        "source_row": 47,
+        "P_bar": 30.88,
+        "T_sat_C": 125.0,
+        "superheat_C": 20.0,
+        "bounds_C": [
+          20,
+          20
+        ],
+        "bounds_values": [
+          761.181,
+          761.181
+        ],
+        "value": 761.181
+      },
+      {
+        "property": "h_kJkg",
+        "source_page": 3,
+        "source_row": 48,
+        "P_bar": 33.578,
+        "T_sat_C": 130.0,
+        "superheat_C": 15.0,
+        "bounds_C": [
+          15,
+          15
+        ],
+        "bounds_values": [
+          749.729,
+          749.729
+        ],
+        "value": 749.729
+      },
+      {
+        "property": "s_kJkgK",
+        "source_page": 4,
+        "source_row": 47,
+        "P_bar": 30.88,
+        "T_sat_C": 125.0,
+        "superheat_C": 20.0,
+        "bounds_C": [
+          20,
+          20
+        ],
+        "bounds_values": [
+          2.549,
+          2.549
+        ],
+        "value": 2.549
+      },
+      {
+        "property": "s_kJkgK",
+        "source_page": 4,
+        "source_row": 48,
+        "P_bar": 33.578,
+        "T_sat_C": 130.0,
+        "superheat_C": 15.0,
+        "bounds_C": [
+          15,
+          15
+        ],
+        "bounds_values": [
+          2.514,
+          2.514
+        ],
+        "value": 2.514
+      }
+    ],
+    "v_dm3kg": 11.49657005189029,
+    "h_kJkg": 754.3047064492217,
+    "s_kJkgK": 2.527984432913269,
+    "v_m3kg": 0.01149657005189029
+  },
+  "nine": {
+    "P_bar": 4.0,
+    "T_C": 80.0,
+    "interpolations": [
+      {
+        "property": "v_dm3kg",
+        "source_page": 2,
+        "source_row": 27,
+        "P_bar": 3.507,
+        "T_sat_C": 25.0,
+        "superheat_C": 55.0,
+        "bounds_C": [
+          55,
+          55
+        ],
+        "bounds_values": [
+          136.22,
+          136.22
+        ],
+        "value": 136.22
+      },
+      {
+        "property": "v_dm3kg",
+        "source_page": 2,
+        "source_row": 28,
+        "P_bar": 4.047,
+        "T_sat_C": 30.0,
+        "superheat_C": 50.0,
+        "bounds_C": [
+          50,
+          50
+        ],
+        "bounds_values": [
+          116.917,
+          116.917
+        ],
+        "value": 116.917
+      },
+      {
+        "property": "h_kJkg",
+        "source_page": 3,
+        "source_row": 27,
+        "P_bar": 3.507,
+        "T_sat_C": 25.0,
+        "superheat_C": 55.0,
+        "bounds_C": [
+          55,
+          55
+        ],
+        "bounds_values": [
+          691.396,
+          691.396
+        ],
+        "value": 691.396
+      },
+      {
+        "property": "h_kJkg",
+        "source_page": 3,
+        "source_row": 28,
+        "P_bar": 4.047,
+        "T_sat_C": 30.0,
+        "superheat_C": 50.0,
+        "bounds_C": [
+          50,
+          50
+        ],
+        "bounds_values": [
+          689.934,
+          689.934
+        ],
+        "value": 689.934
+      },
+      {
+        "property": "s_kJkgK",
+        "source_page": 4,
+        "source_row": 27,
+        "P_bar": 3.507,
+        "T_sat_C": 25.0,
+        "superheat_C": 55.0,
+        "bounds_C": [
+          55,
+          55
+        ],
+        "bounds_values": [
+          2.627,
+          2.627
+        ],
+        "value": 2.627
+      },
+      {
+        "property": "s_kJkgK",
+        "source_page": 4,
+        "source_row": 28,
+        "P_bar": 4.047,
+        "T_sat_C": 30.0,
+        "superheat_C": 50.0,
+        "bounds_C": [
+          50,
+          50
+        ],
+        "bounds_values": [
+          2.603,
+          2.603
+        ],
+        "value": 2.603
+      }
+    ],
+    "v_dm3kg": 118.59707592592592,
+    "h_kJkg": 690.0612481481481,
+    "s_kJkgK": 2.605088888888889,
+    "v_m3kg": 0.11859707592592592
+  },
+  "ten": {
+    "P_bar": 4.0,
+    "T_bubble_C": 29.564814814814817,
+    "v_f_dm3kg": 1.8351722222222222,
+    "rho_f_kgdm3": 0.5446092592592593,
+    "h_f_kJkg": 270.1738388888889,
+    "s_f_kJkgK": 1.2424314814814814,
+    "T_dew_C": 29.564814814814817,
+    "v_g_m3kg": 0.09630555555555555,
+    "rho_g_kgm3": 10.362151851851852,
+    "h_g_kJkg": 593.98955,
+    "s_g_kJkgK": 2.311738888888889,
+    "h_fg_kJkg": 323.8157111111111,
+    "v_f_m3kg": 0.0018351722222222221,
+    "source_rows": [
+      27,
+      28
+    ]
+  },
+  "h11": 275.9852175925926,
+  "x2": 0.16583815577269712,
+  "ms": 38.142775827720335,
+  "mb": 191.85722417227967,
+  "miso": 105.5352236904133,
+  "wp": 5.811378703703704,
+  "Qhx": 50479.554251968504,
+  "Wflash": 15411.970000948677,
+  "Wtiso": 6779.947742449541,
+  "Wp": 613.3051514450744,
+  "Wbin": 6166.642591004466,
+  "Wtotal": 21578.612591953144,
+  "QCflash": 82110.33495209184,
+  "QCiso": 44312.91166096404,
+  "Qflash": 97522.30495304053,
+  "Qin": 148001.85920500904,
+  "Qgeo": 148001.09634949247,
+  "Qresource": 203589.09999999998,
+  "effbin": 0.12216119342543504,
+  "effcomb": 0.14579960486890173,
+  "effresource": 0.10599100144336385,
+  "eff20": 0.10353585983449101,
+  "assumptions": {
+    "ambient_C": 25,
+    "h0_kJkg": 104.83,
+    "pump_model": "Líquido incompresible: w=vΔP/eta",
+    "pump_efficiency": 0.9,
+    "auxiliary_loads": "No especificados; se incluye la bomba de isobutano",
+    "state11_T_s": "No determinados por estas tablas de saturación y vapor"
+  }
+}

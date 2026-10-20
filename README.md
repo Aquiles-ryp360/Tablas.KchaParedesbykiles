@@ -6,6 +6,17 @@ El objetivo del proyecto es que la resolución sea **corta, visible y trazable**
 
 > La base de datos sigue siendo la fuente termodinámica principal del repositorio: `data/thermodynamic_tables.sqlite`.
 
+## Tablas de isobutano R600a
+
+Se añadieron las **cuatro tablas de `tablas.pdf`**: saturación, volumen, entalpía y entropía de vapor sobrecalentado, con 48 filas por tabla. Incluyen CSV, JSON, Excel con fórmulas y una consulta Python que muestra las interpolaciones.
+
+- [Datos y Excel](data/r600a/)
+- [Unidades, interpolación y comprobaciones](docs/R600A.md)
+- [Ejercicio flash–binario resuelto en PDF](examples/flash_binario_230C/solucion.pdf)
+- [Cálculo reproducible](examples/flash_binario_r600a.py)
+
+Las columnas 0–100 °C son **grados de sobrecalentamiento**. El volumen líquido y el volumen de la tabla de vapor sobrecalentado están en dm³/kg; el volumen de vapor de la tabla de saturación está en m³/kg. Las celdas transcritas y su revisión se registran en `data/r600a/cell_audit.json`.
+
 ## Funciones actuales
 
 - Agua saturada por presión.

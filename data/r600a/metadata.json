@@ -1,0 +1,51 @@
+{
+  "fluid": "R600a (isobutano)",
+  "source_file": "tablas.pdf",
+  "source_sha256": "22a9c7c67b7e6dd3a6649de86b333d038f93213b71e2007490d10a3829e115a6",
+  "source_pages": 4,
+  "rows_per_table": 48,
+  "superheat_columns_C": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "source_values_preserved": true,
+  "reference": "La página 1 da h_f=200 kJ/kg y s_f=1 kJ/(kg K) a 0 °C (referencia IIR).",
+  "units": {
+    "pressure": "bar absolutos",
+    "temperature": "°C",
+    "liquid_volume": "dm³/kg",
+    "saturated_vapor_volume": "m³/kg",
+    "superheated_vapor_volume": "dm³/kg",
+    "liquid_density": "kg/dm³",
+    "vapor_density": "kg/m³",
+    "enthalpy": "kJ/kg",
+    "entropy": "kJ/(kg K)"
+  },
+  "transcription": "OCR en varias lecturas; selección entre candidatos observados; revisión visual de discrepancias y de las propiedades empleadas en el ejercicio. No se han sustituido datos por una ecuación de estado.",
+  "cell_status_counts": {
+    "visual_verified": 373,
+    "visual_row_label": 240,
+    "ocr_consensus": 411,
+    "ocr_selected": 2864
+  },
+  "scope": "Transcripción de un escaneo académico. La validación automática y las celdas revisadas visualmente se detallan en cell_audit.json; no equivalen a una certificación independiente de cada cifra impresa."
+}
